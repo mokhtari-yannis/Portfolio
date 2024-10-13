@@ -11,5 +11,5 @@ export default defineConfig({
     integrations: [icon(), /*tailwind()*/],
      output: 'static',
     site: 'https://Mokhtariyannis.portfolio.github.io',
-    base: import.meta.env.MODE === 'development' ? '/' : '/Portfolio/',
+    base: '/Portfolio/',
 });
