@@ -10,5 +10,5 @@ import tailwind from "@astrojs/tailwind";
 export default defineConfig({
     integrations: [icon(), /*tailwind()*/],
     site: 'https://Mokhtariyannis.portfolio.github.io',
-    base: process.env.PUBLIC_BASE_URL, 
+    base: import.meta.env.PUBLIC_BASE_URL, 
 });
