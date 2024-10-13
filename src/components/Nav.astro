@@ -4,16 +4,19 @@ import { Icon as Icons} from 'astro-icon/components'
 import ThemeToggle from './ThemeToggle.astro';
 import type { iconPaths } from './IconPaths';
 
+const baseUrl = import.meta.env.PUBLIC_BASE_URL;
+
 /** Main menu items */
 const textLinks: { label: string; href: string }[] = [
-	{ label: 'Accueil', href: `${process.env.BASE_URL}` },
-	{ label: 'Profil', href: `${process.env.BASE_URL}profil/` },
-	{ label: 'BTS SIO', href: `${process.env.BASE_URL}bts-sio/` },
-	{ label: 'Réalisations', href: `${process.env.BASE_URL}realisations/` },
-	{ label: 'Veille technologique', href: `${process.env.BASE_URL}veilletechno/` },
-	{ label: 'Contact', href: `${process.env.BASE_URL}contact/` },
+	{ label: 'Accueil', href: `${baseUrl}` },
+	{ label: 'Profil', href: `${baseUrl}profil/` },
+	{ label: 'BTS SIO', href: `${baseUrl}bts-sio/` },
+	{ label: 'Réalisations', href: `${baseUrl}realisations/` },
+	{ label: 'Veille technologique', href: `${baseUrl}veilletechno/` },
+	{ label: 'Contact', href: `${baseUrl}contact/` },
 	
 ];
+
 
 /** Icon links to social media — edit these with links to your profiles! */
 const iconLinks: { label: string; href: string; icon: keyof typeof iconPaths }[] = [
@@ -50,7 +53,7 @@ const iconLinks: { label: string; href: string; icon: keyof typeof iconPaths }[]
 								{
 									active:
 										Astro.url.pathname === href ||
-										(href !== `${process.env.BASE_URL}` && Astro.url.pathname.startsWith(href)),
+										(href !== `${baseUrl}` && Astro.url.pathname.startsWith(href)),
 								},
 							]}
 							href={href}
@@ -88,7 +91,7 @@ const iconLinks: { label: string; href: string; icon: keyof typeof iconPaths }[]
 								{
 									active:
 										Astro.url.pathname === href ||
-										(href !== `${process.env.BASE_URL}` && Astro.url.pathname.startsWith(href)),
+										(href !== `${baseUrl}` && Astro.url.pathname.startsWith(href)),
 								},
 							]}
 							href={href}
