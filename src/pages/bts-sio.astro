@@ -1,0 +1,193 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Icon from '../components/Icon.astro';
+import ContactCTA from '../components/ContactCTA.astro';
+import Hero from '../components/Hero.astro';
+import { iconPaths } from '../components/IconPaths';
+
+const workExampleSISR: { text: string; icon: keyof typeof iconPaths }[] = [
+	{ text: 'Administrateur systèmes et réseaux', icon: 'arrow-right' },
+	{ text: 'Informaticien support et déploiement', icon: 'arrow-right' },
+	{ text: 'Pilote d’exploitation', icon: 'arrow-right' },
+	{ text: 'Support systèmes et réseaux', icon: 'arrow-right' },
+	{ text: 'Technicien d’infrastructure', icon: 'arrow-right' },
+	{ text: 'Technicien de production', icon: 'arrow-right' },
+	{ text: 'Technicien micro et réseaux', icon: 'arrow-right' },
+];
+
+const workExampleSLAM: { text: string; icon: keyof typeof iconPaths }[] = [
+	{ text: 'Développeur d’applications informatiques', icon: 'arrow-right' },
+	{ text: 'Développeur informatique', icon: 'arrow-right' },
+	{ text: 'Analyste d’applications ou d’études', icon: 'arrow-right' },
+	{ text: 'Chargé d’études informatiques', icon: 'arrow-right' },
+	{ text: 'Informaticien d’études', icon: 'arrow-right' },
+	{ text: 'Responsable des services applicatifs', icon: 'arrow-right' },
+	{ text: 'Programmeur d’applications', icon: 'arrow-right' },
+];
+
+
+---
+
+<BaseLayout title=" BTS SIO | Yannis Mokhtari" description="">
+	<div class="stack gap-20">
+		<main class="wrapper about">
+			<Hero
+				title="BTS SIO"
+				tagline="Présentation de la formation"
+			>
+				<img
+					width="800"
+					height="873"
+					src="/assets/BTS_SIO_new.png"
+					alt="BTS SIO"
+				/>
+			</Hero>
+
+			<section>
+				<h2 class="section-title">Qu'est-ce que le BTS SIO ?</h2>
+				<div class="content">
+					<p>
+						Le BTS SIO – <b>Services Informatiques aux Organisations</b> est une formation dans laquelle 
+						vous apprendrez à traduire les besoins fonctionnels d’un système d’information selon 
+						les objectifs du domaine métiers et les contraintes économiques ainsi que logistiques.
+						
+					</p>
+					<br>
+					<p>
+						Ce BTS propose <b>deux spécialités</b> :
+					</p>
+					<br>
+					<p>
+						<h5><b>Option A</b> : <b>SISR</b> (Solutions d’Infrastructures, Systèmes et Réseaux).</h5>
+						<br>
+						L’option SISR forme des professionnels des réseaux et 
+						équipements informatiques (installation, maintenance, sécurité). Ces derniers sont en mesure de 
+						répondre aux besoins informatiques d’une entreprise, tout en accompagnant la transformation numérique. 
+						En sortant d’un BTS SIO SISR, vous serez donc capable de gérer et d’administrer le réseau d’une société 
+						et d’assurer sa sécurité et sa maintenance.
+						<img
+							width="450"
+							height="873"
+							src="/assets/SISR.jpg"
+							alt="Câble RJ45"
+						/>
+						<br>
+						<br>
+						Exemple de métiers après un <b>BTS SIO SISR</b> :
+						<br>
+						<br>
+						{
+							workExampleSISR.map((data) => (
+							<div class="flex items-center gap-1 mb-2">
+								<Icon icon={data.icon} size="1.33em" /> {data.text} 
+							</div>
+							
+							))
+						}
+
+					</p>
+					<br>
+					<br>
+					<p>
+						<h5><b>Option B</b> : <b>SLAM</b> (Solutions Logicielles et Applications Métiers).</h5>
+						<br>
+						L’option SLAM exerce des spécialistes des logiciels 
+						(rédaction d’un cahier des charges, formulation des besoins et spécifications, développement, intégration 
+						au sein de la société).
+						<img
+						width="450" 
+						height="873"
+						src="/assets/SLAM.jpg"
+						alt="Ligne de code"
+						/>
+						<br>
+						<br>
+						Exemple de métiers après un <b>BTS SIO SLAM</b> :
+						<br>
+						<br>
+						{
+							workExampleSLAM.map((data) => (
+							<div class="flex items-center gap-1 mb-2">
+								<Icon icon={data.icon} size="1.33em" /> {data.text} 
+							</div>
+							
+							))
+						}
+						
+					</p>
+					</p>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Cybersécurité</h2>
+				<div class="content">
+					<p>La cybersécurité est la protection des systèmes informatiques et des données 
+						contre les attaques, les vols ou les dommages. Elle utilise des outils 
+						comme les antivirus, les pare-feux et des méthodes de surveillance pour 
+						garantir la sécurité des informations en ligne et des réseaux, face à des
+						menaces toujours plus complexes dans le monde numérique.</p>
+				</div>
+			</section>
+		</main>
+
+		<ContactCTA />
+	</div>
+</BaseLayout>
+
+<style>
+	.about {
+		display: flex;
+		flex-direction: column;
+		gap: 3.5rem;
+	}
+
+	img {
+		margin-top: 1.5rem;
+		border-radius: 1.5rem;
+		box-shadow: var(--shadow-md);
+	}
+
+	section {
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
+		color: var(--gray-200);
+	}
+
+	.section-title {
+		grid-column-start: 1;
+		font-size: var(--text-xl);
+		color: var(--gray-0);
+	}
+
+	.content {
+		grid-column: 2 / 4;
+	}
+
+	.content :global(a) {
+		text-decoration: 1px solid underline transparent;
+		text-underline-offset: 0.25em;
+		transition: text-decoration-color var(--theme-transition);
+	}
+
+	.content :global(a:hover),
+	.content :global(a:focus) {
+		text-decoration-color: currentColor;
+	}
+
+	@media (min-width: 50em) {
+		.about {
+			display: grid;
+			grid-template-columns: 1fr 60% 1fr;
+		}
+
+		.about > :global(:first-child) {
+			grid-column-start: 2;
+		}
+
+		section {
+			display: contents;
+			font-size: var(--text-lg);
+		}
+	}
+</style>

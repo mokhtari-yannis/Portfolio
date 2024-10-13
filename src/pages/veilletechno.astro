@@ -1,0 +1,206 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Icon from '../components/Icon.astro';
+import ContactCTA from '../components/ContactCTA.astro';
+import Hero from '../components/Hero.astro';
+import { iconPaths } from '../components/IconPaths';
+
+const workExampleSISR: { text: string; icon: keyof typeof iconPaths }[] = [
+	{ text: 'Administrateur systèmes et réseaux', icon: 'arrow-right' },
+	{ text: 'Informaticien support et déploiement', icon: 'arrow-right' },
+	{ text: 'Pilote d’exploitation', icon: 'arrow-right' },
+	{ text: 'Support systèmes et réseaux', icon: 'arrow-right' },
+	{ text: 'Technicien d’infrastructure', icon: 'arrow-right' },
+	{ text: 'Technicien de production', icon: 'arrow-right' },
+	{ text: 'Technicien micro et réseaux', icon: 'arrow-right' },
+];
+
+const workExampleSLAM: { text: string; icon: keyof typeof iconPaths }[] = [
+	{ text: 'Développeur d’applications informatiques', icon: 'arrow-right' },
+	{ text: 'Développeur informatique', icon: 'arrow-right' },
+	{ text: 'Analyste d’applications ou d’études', icon: 'arrow-right' },
+	{ text: 'Chargé d’études informatiques', icon: 'arrow-right' },
+	{ text: 'Informaticien d’études', icon: 'arrow-right' },
+	{ text: 'Responsable des services applicatifs', icon: 'arrow-right' },
+	{ text: 'Programmeur d’applications', icon: 'arrow-right' },
+];
+
+
+---
+
+<BaseLayout title="Veille technologique | Yannis Mokhtari" description="Veille technologique | Yannis Mokhtari">
+	<div class="stack gap-20">
+		<main class="wrapper about">
+			<Hero
+				title="Veille technologique"
+				tagline=""
+			>
+				<img
+					width="800"
+					height="873"
+					src="/assets/Veille_technologique.webp"
+					alt="Ordinateur Laptop"
+				/>
+			</Hero>
+
+			<section>
+				<h2 class="section-title">​Qu'est ce que la veille ?</h2>
+				<div class="content">
+					<p>
+						La veille technologique consiste à s'informer en continu sur les avancées techniques récentes et 
+						sur leur mise en œuvre commerciale. Cette démarche permet de rester à jour sur les nouvelles méthodes 
+						d'acquisition, de stockage et d'analyse de l'information, un peu comme une revue de presse spécialisée
+						dans les technologies émergentes.		
+					</p>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Méthodes</h2>
+				<div class="content">
+					<p>Les méthodes utilisés pour réaliser ces veilles sont :
+						<br>
+						- <a href="/assets/"target="_blank">Mise en place de l'outil Google Alerte</a>
+						<br>
+						- <a href="/assets/"target="_blank">Utilisation de Feedly</a>
+						<br>
+						- <a href="/assets/"target="_blank">Utilisation de Notion</a>
+					</p>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Outils</h2>
+				<div class="content">
+					<p>Les outils de veille technologique les plus utilisés incluent les agrégateurs de flux RSS, 
+						les alertes Google, les réseaux sociaux, les outils de surveillance des médias sociaux, 
+						les newsletters, les bases de données, les blogs et les forums.
+					</p>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Sujets de veilles</h2>
+				<div class="content">
+					<p> 
+						- <b>Sécurité dans le cloud</b> : Quelles sont les meilleures pratiques pour protéger les données dans un environnement cloud ?
+						<br>
+						<br>
+						- <b>Intelligence artificielle et sécurité</b> : Comment l'IA peut-elle améliorer la détection des menaces ?
+					<br>
+					</p>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Sources</h2>
+				<div class="content">
+					<div>
+
+						<main class="grid">
+						<article>
+							<img src="/assets/article1.jpg" alt="article">
+							<div class="text">
+								<h4>Commvault renforce la sécurité des données cloud avec Clumio</h4> 
+								<br>
+								<p>Le spécialiste de la sauvegarde Commvault continue ses emplettes pour étoffer son 
+									portefeuille de protection des données cloud. Après Apranix, il jette son dévolu sur
+									Clumio qui se focalise sur AWS.</p> 
+								<br>
+								<hr>
+								<address>
+									le 25 Septembre 2024
+									<br>
+									<b>Jacques Cheminat</b>  | <b>Le Monde Informatique</b><br>
+								</address>
+								<hr>
+								<a href="https://www.lemondeinformatique.fr/actualites/lire-commvault-renforce-la-
+								securite-des-donnees-cloud-avec-clumio-94805.html" 
+								class="btn btn-primary btn-block" target="_blank" rel="noreferrer">En savoir plus</a>
+							</div>
+						</article>
+						
+						
+			
+					
+						
+						
+
+					</main>
+			
+				</div>
+					<p>
+
+					</p>
+					
+				</div>
+			</section>
+			
+		</main>
+
+		<ContactCTA />
+	</div>
+</BaseLayout>
+
+<style>
+	.about {
+		display: flex;
+		flex-direction: column;
+		gap: 3.5rem;
+	}
+
+	img {
+		margin-top: 1.5rem;
+		border-radius: 1.5rem;
+		box-shadow: var(--shadow-md);
+	}
+
+	section {
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
+		color: var(--gray-200);
+	}
+
+	.section-title {
+		grid-column-start: 1;
+		font-size: var(--text-xl);
+		color: var(--gray-0);
+	}
+
+	.content {
+		grid-column: 2 / 4;
+	}
+
+	.content :global(a) {
+		text-decoration: 1px solid underline transparent;
+		text-underline-offset: 0.25em;
+		transition: text-decoration-color var(--theme-transition);
+	}
+
+	.content :global(a:hover),
+	.content :global(a:focus) {
+		text-decoration-color: currentColor;
+	}
+
+	@media (min-width: 50em) {
+		.about {
+			display: grid;
+			grid-template-columns: 1fr 60% 1fr;
+		}
+
+		.about > :global(:first-child) {
+			grid-column-start: 2;
+		}
+
+		section {
+			display: contents;
+			font-size: var(--text-lg);
+		}
+	}
+	.grid {
+    display: grid;
+    margin-left: 0px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 2fr));
+    grid-gap: 50px;
+    padding: 2%;
+    align-items: stretch;
+    text-align: match-parent;
+	}
+</style>

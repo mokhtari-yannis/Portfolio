@@ -1,0 +1,49 @@
+---
+import { getCollection } from 'astro:content';
+
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Icon from '../components/Icon.astro';
+import ContactCTA from '../components/ContactCTA.astro';
+import PortfolioPreview from '../components/PortfolioPreview.astro';
+import Hero from '../components/Hero.astro';
+import Grid from '../components/Grid.astro';
+
+const projects = (await getCollection('work')).sort(
+	(a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf(),
+);
+---
+
+<BaseLayout
+	title="Réalisations | Yannis Mokhtari"
+	description="Mes récentes réalisations"
+>
+	<div class="stack gap-20">
+		<main class="wrapper stack gap-8">
+			<Hero
+				title="Réalisations"
+				tagline="Voici, les réalisations que j'ai faites durant mon parcours :"
+				align="start"
+			/>
+			<section>
+				<h5 class="section-title">Tableau de Synthèse :</h5>
+				<div class="content">
+					<br>
+					<p>
+						<Icon icon="arrow-right" size="1.33em" /><a href="/assets/- Tableau de synthèse - Epreuve E4 - BTS SIO 2025.pdf"target="_blank">Cliquer ici</a>
+					<br>
+					</p>
+				</div>
+			</section>
+			<Grid variant="offset">
+				{
+					projects.map((project) => (
+						<li>
+							<PortfolioPreview project={project} />
+						</li>
+					))
+				}
+			</Grid>
+		</main>
+		<ContactCTA />
+	</div>
+</BaseLayout>

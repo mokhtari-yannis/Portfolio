@@ -1,0 +1,178 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Icon from '../components/Icon.astro';
+import ContactCTA from '../components/ContactCTA.astro';
+import Hero from '../components/Hero.astro';
+import { iconPaths } from '../components/IconPaths';
+
+---
+
+<BaseLayout title="Contact | Yannis Mokhtari" description="Formulaire de contact | Yannis Mokhtari">
+	<div class="stack gap-20">
+		<main class="wrapper about">
+			<Hero
+				title="Contact"
+				tagline="Coordonnées"
+				
+			>
+			<img
+					width="800"
+					height="873"
+					src="/assets/Contact_new.webp"
+					alt="Contact"
+				/>
+			</Hero>
+
+			<section>
+				<h2 class="section-title">Formulaire de contact</h2>
+				<div class="content">
+					<form action="#" method="POST">
+						<div class="form-group">
+						  <label for="name">Nom complet</label>
+						  <input type="text" id="name" name="name" placeholder="Votre nom *" required>
+						</div>
+						
+						<div class="form-group">
+						  <label for="email">Adresse Email</label>
+						  <input type="email" id="email" name="email" placeholder="Votre email *" required>
+						</div>
+						
+						<div class="form-group">
+						  <label for="message">Message</label>
+						  <textarea id="message" name="message" placeholder="Votre message... *" required></textarea>
+						</div>
+						
+						<div class="form-group">
+						  <button type="submit">Envoyer le formulaire</button>
+						</div>
+					  </form>
+				</div>
+			</section>
+		</main>
+
+		<ContactCTA />
+	</div>
+</BaseLayout>
+
+<style>
+	.about {
+		display: flex;
+		flex-direction: column;
+		gap: 3.5rem;
+	}
+
+	img {
+		margin-top: 1.5rem;
+		border-radius: 1.5rem;
+		box-shadow: var(--shadow-md);
+	}
+
+	section {
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
+		color: var(--gray-200);
+	}
+
+	.section-title {
+		grid-column-start: 1;
+		font-size: var(--text-xl);
+		color: var(--gray-0);
+	}
+
+	.content {
+		grid-column: 2 / 4;
+	}
+
+	.content :global(a) {
+		text-decoration: 1px solid underline transparent;
+		text-underline-offset: 0.25em;
+		transition: text-decoration-color var(--theme-transition);
+	}
+
+	.content :global(a:hover),
+	.content :global(a:focus) {
+		text-decoration-color: currentColor;
+	}
+
+	@media (min-width: 50em) {
+		.about {
+			display: grid;
+			grid-template-columns: 1fr 60% 1fr;
+		}
+
+		.about > :global(:first-child) {
+			grid-column-start: 2;
+		}
+
+		section {
+			display: contents;
+			font-size: var(--text-lg);
+		}
+	}
+
+
+
+
+
+	.contact-container {
+      background-color: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      max-width: 600px;
+      width: 100%;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #333333;
+    }
+
+    .form-group {
+      margin-bottom: 15px;
+    }
+
+    label {
+
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 16px;
+      color: #333;
+      box-sizing: border-box;
+    }
+
+    textarea {
+      resize: vertical;
+      height: 150px;
+    }
+
+    button {
+      background-color: #FF4500;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+      width: 100%;
+    }
+
+    button:hover {
+      background-color: #FF4900;
+    }
+
+    .form-group input:focus,
+    .form-group textarea:focus {
+      outline: none;
+      border-color: #4CAF50;
+    }
+</style>
