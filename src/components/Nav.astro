@@ -6,12 +6,12 @@ import type { iconPaths } from './IconPaths';
 
 /** Main menu items */
 const textLinks: { label: string; href: string }[] = [
-	{ label: 'Accueil', href: '/' },
-	{ label: 'Profil', href: '/profil/' },
-	{ label: 'BTS SIO', href: '/bts-sio/' },
-	{ label: 'Réalisations', href: '/realisations/' },
-	{ label: 'Veille technologique', href: '/veilletechno/' },
-	{ label: 'Contact', href: '/contact/' },
+	{ label: 'Accueil', href: `${process.env.BASE_URL}` },
+	{ label: 'Profil', href: `${process.env.BASE_URL}profil/` },
+	{ label: 'BTS SIO', href: `${process.env.BASE_URL}bts-sio/` },
+	{ label: 'Réalisations', href: `${process.env.BASE_URL}realisations/` },
+	{ label: 'Veille technologique', href: `${process.env.BASE_URL}veilletechno/` },
+	{ label: 'Contact', href: `${process.env.BASE_URL}contact/` },
 	
 ];
 
@@ -50,7 +50,7 @@ const iconLinks: { label: string; href: string; icon: keyof typeof iconPaths }[]
 								{
 									active:
 										Astro.url.pathname === href ||
-										(href !== '/' && Astro.url.pathname.startsWith(href)),
+										(href !== `${process.env.BASE_URL}` && Astro.url.pathname.startsWith(href)),
 								},
 							]}
 							href={href}
@@ -88,7 +88,7 @@ const iconLinks: { label: string; href: string; icon: keyof typeof iconPaths }[]
 								{
 									active:
 										Astro.url.pathname === href ||
-										(href !== '/' && Astro.url.pathname.startsWith(href)),
+										(href !== `${process.env.BASE_URL}` && Astro.url.pathname.startsWith(href)),
 								},
 							]}
 							href={href}
