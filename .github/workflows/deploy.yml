@@ -1,14 +1,13 @@
 name: Deploy to GitHub Pages
 
 on:
-  # Trigger the workflow every time you push to the `main` branch
-  # Using a different branch name? Replace `main` with your branch’s name
+  # Déclencher le workflow à chaque push sur la branche `main`
   push:
     branches: [ main ]
-  # Allows you to run this workflow manually from the Actions tab on GitHub.
+  # Permet de lancer le workflow manuellement depuis l'onglet Actions sur GitHub
   workflow_dispatch:
 
-# Allow this job to clone the repo and create a page deployment
+# Permissions nécessaires pour cloner le repo et déployer les pages
 permissions:
   contents: read
   pages: write
@@ -18,22 +17,46 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout your repository using git
+      - name: Checkout repository
         uses: actions/checkout@v4
-      - name: Install, build, and upload your site
-        uses: withastro/action@v3
-        # with:
-          # path: . # The root location of your Astro project inside the repository. (optional)
-          # node-version: 20 # The specific version of Node that should be used to build your site. Defaults to 20. (optional)
-          # package-manager: pnpm@latest # The Node package manager that should be used to install dependencies and build your site. Automatically detected based on your lockfile. (optional)
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+
+      - name: Install dependencies using npm
+        run: npm install
+
+      - name: Build the site with Astro
+        run: npm run build
+
+      - name: Upload artifact for deployment
+        uses: actions/upload-artifact@v3
+        with:
+          name: dist
+          path: dist
 
   deploy:
     needs: build
     runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Download artifact
+        uses: actions/download-artifact@v3
+        with:
+          name: dist
+
       - name: Deploy to GitHub Pages
-        id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          branch: gh-pages  # Spécifie la branche pour GitHub Pages
+          folder: dist       # Le dossier à déployer
