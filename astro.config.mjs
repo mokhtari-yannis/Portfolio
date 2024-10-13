@@ -9,4 +9,6 @@ import tailwind from "@astrojs/tailwind";
 // // https://astro.build/config
 export default defineConfig({
     integrations: [icon(), /*tailwind()*/],
+    site: 'https://Mokhtariyannis.portfolio.github.io',
+    base: 'my-repo',
 });
