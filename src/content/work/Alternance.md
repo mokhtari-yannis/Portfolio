@@ -1,7 +1,7 @@
 ---
 title: Stage/Alternance
 publishDate: 2019-12-01
-img: /assets/Entreprise.png
+img: ./assets/Entreprise.png
 img_alt: Entreprise
 description: |
   Présentation de mes réalisations lors de mon stage en première année + en alternance de 2ème année en BTS SIO.
