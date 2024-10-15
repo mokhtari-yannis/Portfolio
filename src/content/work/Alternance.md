@@ -16,7 +16,7 @@ tags:
 <img
 					width="1553"
 					height="873"
-					src="/assets/AD.jpg"
+					src="../assets/AD.jpg"
 					alt="Logo Windows Server AD"
 				/>
 Active Directory est la mise en œuvre par Microsoft des services d'annuaire LDAP pour les systèmes d'exploitation Windows.
@@ -25,18 +25,18 @@ Active Directory est la mise en œuvre par Microsoft des services d'annuaire LDA
 target="_blank">Wikipédia</a></b>)
 
 En stage et en alternance, j’ai été amené à utiliser l’Active Directory de Windows Server de l’entreprise pour différentes tâches comme celle-ci :
-- <a href="/assets/.pdf"
+- <a href="../assets/.pdf"
 target="_blank">Document sur création d'un nouvel utilisateur</a>
-- <a href="/assets/.pdf"
+- <a href="../assets/.pdf"
 target="_blank">Document sur implantation d'une GPO (Group Policy Object)</a> 
-- <a href="/assets/.pdf"
+- <a href="../assets/.pdf"
 target="_blank">Document sur réinitialisation d'un mot de passe</a>
 
 > ### GLPI
 <img
 					width="1553"
 					height="873"
-					src="/assets/GLPI.jpeg"
+					src="../assets/GLPI.jpeg"
 					alt="Logo GLPI"
 				/>
 > 
@@ -51,22 +51,22 @@ J'ai été amené à la configuration du logiciel lors de mon stage de la premi�
 
 Voici les documents de mes réalisations sur GLPI :
 
-- <a href="/assets/.pdf"
+- <a href="../assets/.pdf"
 target="_blank">Document sur l'installation du logiciel</a>
-- <a href="/assets/.pdf"
+- <a href="../assets/.pdf"
 target="_blank">Document sur mettre à jour le logiciel </a> 
-- <a href="/assets/.pdf"
+- <a href="../assets/.pdf"
 target="_blank">Document sur création d'un ticket </a>
-- <a href="/assets/.pdf"
+- <a href="../assets/.pdf"
 target="_blank">Document sur ajout d'un collecteur </a>
-- <a href="/assets/.pdf"
+- <a href="../assets/.pdf"
 target="_blank">Document sur l'installation de Fusioninventory</a>
 
 > ### PuTTY
 <img
 					width="1553"
 					height="873"
-					src="/assets/PuTTY.webp"
+					src="../assets/PuTTY.webp"
 					alt="Logo PuTTY"
 				/>
 > 
@@ -75,6 +75,6 @@ PuTTY est un émulateur de terminal doublé d'un client pour les protocoles SSH,
 (Source : <b><a href="https://fr.wikipedia.org/wiki/Active_Directory"
 target="_blank">Wikipédia</a></b>)
 
-- <a href="/assets/.pdf"
+- <a href="../assets/.pdf"
 target="_blank">Document sur configuration d'un switch</a>
 
