@@ -1,7 +1,7 @@
 ---
 title: Attestations
 publishDate:
-img: ../../assets/Attestations.webp
+img: ../assets/Attestations.webp
 img_alt: Attestations
 description: |
   Ci-dessous se trouvent les différentes attestations que j'ai obtenues.
