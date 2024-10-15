@@ -1,7 +1,7 @@
 ---
 title: Projets
 publishDate: 2024-02-02
-img: ./assets/projet.png
+img: ../assets/projet.png
 img_alt: Projet
 description: |
   Vous trouverez ci-joint mes divers projets que j'ai pu réaliser.
