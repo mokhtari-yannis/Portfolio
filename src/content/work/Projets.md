@@ -1,7 +1,7 @@
 ---
 title: Projets
 publishDate: 2024-02-02
-img: ../assets/projet.png
+img: ../../assets/projet.png
 img_alt: Projet
 description: |
   Vous trouverez ci-joint mes divers projets que j'ai pu réaliser.
@@ -15,7 +15,7 @@ tags:
 <img
 					width="1553"
 					height="873"
-					src="../assets/AD.jpg"
+					src="../../assets/AD.jpg"
 					alt="Logo Windows Server AD"
 				/>
 Active Directory est la mise en œuvre par Microsoft des services d'annuaire LDAP pour les systèmes d'exploitation Windows.
@@ -35,7 +35,7 @@ target="_blank">Document sur réinitialisation d'un mot de passe</a>
 <img
 					width="1553"
 					height="873"
-					src="../assets/GLPI.jpeg"
+					src="../../assets/GLPI.jpeg"
 					alt="Logo GLPI"
 				/>
 > 
@@ -50,22 +50,22 @@ J'ai été amené à la configuration du logiciel lors de mon stage de la premi�
 
 Voici les documents de mes réalisations sur GLPI :
 
-- <a href="../assets/.pdf"
+- <a href="../../assets/.pdf"
 target="_blank">Document sur l'installation du logiciel</a>
-- <a href="../assets/.pdf"
+- <a href="../../assets/.pdf"
 target="_blank">Document sur mettre à jour le logiciel </a> 
-- <a href="../assets/.pdf"
+- <a href="../../assets/.pdf"
 target="_blank">Document sur création d'un ticket </a>
-- <a href="../assets/.pdf"
+- <a href="../../assets/.pdf"
 target="_blank">Document sur ajout d'un collecteur </a>
-- <a href="../assets/.pdf"
+- <a href="../../assets/.pdf"
 target="_blank">Document sur l'installation de Fusioninventory</a>
 
 > ### ProMox
 <img
 					width="1553"
 					height="873"
-					src="../assets/PuTTY.webp"
+					src="../../assets/PuTTY.webp"
 					alt="Logo PuTTY"
 				/>
 > 
