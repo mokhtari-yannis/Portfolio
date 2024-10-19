@@ -65,7 +65,7 @@ target="_blank">Document sur l'installation de Fusioninventory</a>
 <img
 					width="1553"
 					height="873"
-					src="../../assets/PuTTY.webp"
+					src="../../assets/Promox-logo.png"
 					alt="Logo PuTTY"
 				/>
 > 
