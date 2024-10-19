@@ -66,7 +66,7 @@ target="_blank">Document sur l'installation de Fusioninventory</a>
 					width="1553"
 					height="873"
 					src="../../assets/Proxmox-logo.png"
-					alt="Logo Promox"
+					alt="Logo Proxmox"
 				/>
 > 
 PuTTY est un émulateur de terminal doublé d'un client pour les protocoles SSH, Telnet, rlogin, et TCP brut.
