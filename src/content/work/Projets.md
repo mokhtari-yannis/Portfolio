@@ -61,7 +61,7 @@ target="_blank">Document sur ajout d'un collecteur </a>
 - <a href="../../assets/.pdf"
 target="_blank">Document sur l'installation de Fusioninventory</a>
 
-> ### ProMox
+> ### ProxMox
 <img
 					width="1553"
 					height="873"
