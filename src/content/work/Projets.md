@@ -35,31 +35,19 @@ target="_blank">Document sur réinitialisation d'un mot de passe</a>
 <img
 					width="1553"
 					height="873"
-					src="../../assets/GLPI.jpeg"
+					src="../../assets/pfsense-logo.jpg"
 					alt="Logo GLPI"
 				/>
 > 
 
-Le logiciel <b><a href="https://glpi-project.org"
-target="_blank">GLPI</a></b> est un software libre de gestion des services informatiques et de conduite des services d’assistance pour l’ensemble du parc informatique.
+PfSense est un système d'exploitation open source ayant pour but la mise en place de routeur/pare-feu basé sur le système d'exploitation FreeBSD.
 <br>
-(Source : <b><a href="https://fr.wikipedia.org/wiki/Gestionnaire_Libre_de_Parc_Informatique"
+(Source : <b><a href="https://fr.wikipedia.org/wiki/PfSense"
 target="_blank">Wikipédia</a></b>)
 
-J'ai été amené à la configuration du logiciel lors de mon stage de la première année de BTS SIO chez BigBen Connected.
-
-Voici les documents de mes réalisations sur GLPI :
 
 - <a href="../../assets/.pdf"
-target="_blank">Document sur l'installation du logiciel</a>
-- <a href="../../assets/.pdf"
-target="_blank">Document sur mettre à jour le logiciel </a> 
-- <a href="../../assets/.pdf"
-target="_blank">Document sur création d'un ticket </a>
-- <a href="../../assets/.pdf"
-target="_blank">Document sur ajout d'un collecteur </a>
-- <a href="../../assets/.pdf"
-target="_blank">Document sur l'installation de Fusioninventory</a>
+target="_blank">Documentation sur l'installation du PfSense</a>
 
 > ### ProxMox
 <img
@@ -69,11 +57,11 @@ target="_blank">Document sur l'installation de Fusioninventory</a>
 					alt="Logo Proxmox"
 				/>
 > 
-PuTTY est un émulateur de terminal doublé d'un client pour les protocoles SSH, Telnet, rlogin, et TCP brut.
+Proxmox Virtual Environnement est une plateforme de virtualisation libre basée sur l'hyperviseur Linux KVM, et offre aussi des conteneurs avec LXC.
 <br>
-(Source : <b><a href="https://fr.wikipedia.org/wiki/Active_Directory"
+(Source : <b><a href="https://fr.wikipedia.org/wiki/Proxmox_Virtual_Environnement"
 target="_blank">Wikipédia</a></b>)
 
 - <a href="../assets/.pdf"
-target="_blank">Document sur configuration d'un switch</a>
+target="_blank">Document sur l'installation de Proxmox</a>
 
