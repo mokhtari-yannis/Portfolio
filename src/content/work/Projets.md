@@ -62,7 +62,7 @@ Proxmox Virtual Environnement est une plateforme de virtualisation libre basée 
 (Source : <b><a href="https://fr.wikipedia.org/wiki/Proxmox_Virtual_Environnement"
 target="_blank">Wikipédia</a></b>)
 
-- <a href="../assets/[PROXMOX] - Installation.pdf"
+- <a href="../../assets/[PROXMOX] - Installation.pdf"
 target="_blank">Document sur l'installation de Proxmox</a>
 
 
