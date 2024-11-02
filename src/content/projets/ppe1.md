@@ -1,7 +1,7 @@
 ---
 title: PPE1
 publishDate: 2024-02-02
-img: ../assets/ppe1.webp
+img: ../../assets/ppe1.webp
 img_alt: PPE1
 description: |
   Vous trouverez ci-joint mes divers projets que j'ai pu réaliser.
@@ -15,7 +15,7 @@ tags:
 <img
 					width="1553"
 					height="873"
-					src="../../assets/Services-réseaux.svg"
+					src="../../../assets/Services-réseaux.svg"
 					alt="Logo Windows Server AD"
 				/>
 Active Directory est la mise en œuvre par Microsoft des services d'annuaire LDAP pour les systèmes d'exploitation Windows.
