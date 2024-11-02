@@ -10,7 +10,7 @@ const baseUrl = import.meta.env.PUBLIC_BASE_URL;
 
 ---
 
-<a class="card" href={`${baseUrl}realisations/${slug}`}>
+<a class="card" href={`${baseUrl}realisations/${slug}/`}>
 	<span class="title">{data.title}</span>
 	<img src={data.img} alt={data.img_alt || ''} loading="lazy" decoding="async" />
 </a>
