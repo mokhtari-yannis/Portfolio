@@ -12,7 +12,7 @@ description: |
 <img
 					width="1553"
 					height="873"
-					src="../../../assets/Services-réseaux.svg"
+					src="../../../assets/Services-réseaux.png"
 					alt="Logo Windows Server AD"
 				/>
 <br>
