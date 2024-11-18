@@ -4,7 +4,7 @@ publishDate: 2024-02-02
 img: ../../assets/e5.webp
 img_alt: E5
 description: |
-  Voici, les services qu'on a mis en place moi et mes camarades pour cette infrastructure.
+  Voici, les services qu'on a mis en place moi et mes camarades dans cette infrastructure pour l'épreuvre E5.
   
 ---
 
