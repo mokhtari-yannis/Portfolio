@@ -10,7 +10,7 @@ description: |
 > ### Documentation Technique de l'AP1
 
 - <a href="../../../assets/documentation/AP-1.pdf"
-target="_blank">Documentation sur l'entreprise fictive</a>
+target="_blank">Documentation sur l'Entreprise Fictive</a>
 
 
 
