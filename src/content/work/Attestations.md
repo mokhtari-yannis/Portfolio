@@ -31,6 +31,7 @@ target="_blank">Plus de détails</a></b>
 Format PDF : <b><a href="../../assets/Attestation_Cisco_Cybersecurite.pdf"
 target="_blank">Plus de détails</a></b>
 
+<!--
 > #### Premiers pas avec Cisco Packet Tracer
 <img
 					width="1553"
@@ -41,3 +42,4 @@ target="_blank">Plus de détails</a></b>
 >
 Format PDF : <b><a href="../../assets/Attestation_Cisco_Cybersecurite.pdf"
 target="_blank">Plus de détails</a></b>
+-->

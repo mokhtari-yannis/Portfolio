@@ -7,16 +7,10 @@ description: |
   Vous trouverez ci-joint les différentes documentations de l'AP2
   
 ---
-> ### Documentation Technique de l'AP2
+> #### Documentation Technique de l'AP2
 
 - <a href="../../../assets/documentation/.pdf"
-target="_blank">Documentation sur ...</a>
-- <a href="../../../assets/documentation/.pdf"
-target="_blank">Documentation sur ...</a>
-- <a href="../../../assets/documentation/.pdf"
-target="_blank">Documentation sur ...</a>
-- <a href="../../../assets/documentation/.pdf"
-target="_blank">Documentation sur ...</a>
+target="_blank">Documentation sur la réponse aux problématiques M2L</a>
 
 
 

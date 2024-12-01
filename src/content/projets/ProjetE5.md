@@ -31,6 +31,7 @@ target="_blank">Wikipédia</a></b>)
 - <a href="../../../assets/documentation/[PROXMOX] - Installation.pdf"
 target="_blank">Installation de Proxmox</a>
 
+<!--
 > ### Windows Serveur
 <img
 					width="1553"
@@ -44,10 +45,11 @@ Active Directory est la mise en œuvre par Microsoft des services d'annuaire LDA
 target="_blank">Wikipédia</a></b>)
 
 - <a href="../../../assets/documentation/[WS] - Installation.pdf"
-target="_blank">Installation de Windows Server 2022</a>
+target="_blank">Installation de Windows Server 2022</a> 
+-->
 
 
-
+<!--
 > ### Pfsense
 <img
 					width="1553"
@@ -65,6 +67,7 @@ target="_blank">Wikipédia</a></b>)
 
 - <a href="../../../assets/documentation/[Pfsense] - Installation.pdf"
 target="_blank">Installation de Pfsense</a>
+-->
 
 > ### GLPI
 <img
