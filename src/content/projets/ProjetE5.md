@@ -4,10 +4,14 @@ publishDate: 2024-02-02
 img: ../../assets/e5.webp
 img_alt: E5
 description: |
-  Voici, les services qu'on a mis en place moi et mes camarades dans cette infrastructure pour l'épreuvre E5.
+  Voici, les services que j'ai mis en place dans cette infrastructure pour l'épreuvre E5.
   
 ---
+L'épreuve E5 du BTS SIO, options SISR et SLAM, est un projet réalisé en groupe qui consiste à concevoir, mettre en place et optimiser une solution informatique répondant aux besoins d'une entreprise.
 
+Dans ce cadre, en tant qu'étudiant en SISR, j'ai participé à la mise en place de services tels que GLPI (gestion des ressources informatiques et du support technique) et iRedMail (solution de messagerie sécurisée).
+
+<!--
 > ### Schéma Réseaux
 <img
 					width="1553"
@@ -16,6 +20,8 @@ description: |
 					alt="Logo Windows Server AD"
 				/>
 <br>
+-->
+
 > ### ProxMox
 <img
 					width="1553"
@@ -23,7 +29,8 @@ description: |
 					src="../../../assets/Proxmox-logo.png"
 					alt="Logo Proxmox"
 				/>
-Proxmox Virtual Environnement est une plateforme de virtualisation libre basée sur l'hyperviseur Linux KVM, et offre aussi des conteneurs avec LXC.
+<b><a href="https://www.proxmox.com/en/"
+target="_blank">Proxmox Virtual Environnement</a></b> est une plateforme de virtualisation libre basée sur l'hyperviseur Linux KVM, et offre aussi des conteneurs avec LXC.
 <br>
 (Source : <b><a href="https://fr.wikipedia.org/wiki/Proxmox_Virtual_Environnement"
 target="_blank">Wikipédia</a></b>)
@@ -92,5 +99,23 @@ target="_blank">Correction des Erreurs de Sécurité de GLPI</a>
 - <a href="../../../assets/documentation/[GLPI] - Installation_FusionInventory.pdf"
 target="_blank">Installation de l'agent FusionInventory</a>
 
+> ### iRedMail
+<img
+					width="1553"
+					height="873"
+					src="../../../assets/iRedMail.jpg"
+					alt="Logo iRedMail"
+				/>
+> 
+
+<b><a href="https://www.iredmail.org/"
+target="_blank">iRedMail</a></b> est une solution open source complète de gestion de messagerie électronique qui permet aux entreprises et aux organisations de mettre en place et de gérer facilement leurs propres serveurs de messagerie.
+<br>
+(Source : <b><a href="https://support-port25.com/webmail/iredmail.php#:~:text=iRedMail%20est%20une%20solution%20open,leurs%20propres%20serveurs%20de%20messagerie."
+target="_blank">Support-port25</a></b>)
+
+
+- <a href="../../../assets/documentation/[iRedMail] - Installation_iRedMail.pdf"
+target="_blank">Installation de iRedMail sur Ubuntu 24.04.1 LTS</a>
 
 
