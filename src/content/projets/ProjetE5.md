@@ -9,7 +9,7 @@ description: |
 ---
 L'épreuve E5 du BTS SIO, options SISR et SLAM, est un projet réalisé en groupe qui consiste à concevoir, mettre en place et optimiser une solution informatique répondant aux besoins d'une entreprise.
 
-Dans ce cadre, en tant qu'étudiant en SISR, j'ai participé à la mise en place de services tels que GLPI (gestion des ressources informatiques et du support technique) et iRedMail (solution de messagerie sécurisée).
+Dans ce cadre, en tant qu'étudiant en SISR, j'ai participé à la mise en place de services tels que GLPI (gestion des ressources informatiques et du support technique) et iRedMail (solution de messagerie sécurisée) dans un serveur sous ProxMox.
 
 <!--
 > ### Schéma Réseaux
@@ -91,9 +91,12 @@ target="_blank">GLPI</a></b> est un software libre de gestion des services infor
 (Source : <b><a href="https://fr.wikipedia.org/wiki/Gestionnaire_Libre_de_Parc_Informatique"
 target="_blank">Wikipédia</a></b>)
 
-
+- <a href="../../../assets/documentation/[DEBIAN12] - Installation_Debian_12.pdf"
+target="_blank">Installation d'un serveur Debian 12</a>
+- <a href="../../../assets/documentation/[DEBIAN12] - Changement_Adresse_IP.pdf"
+target="_blank">Changement d'adresse IP</a>
 - <a href="../../../assets/documentation/[GLPI] - Installation_GLPI.pdf"
-target="_blank">Installation de GLPI sur debian 12</a>
+target="_blank">Installation de GLPI</a>
 - <a href="../../../assets/documentation/[GLPI] - Erreurs_Sécurité.pdf"
 target="_blank">Correction des Erreurs de Sécurité de GLPI</a>
 - <a href="../../../assets/documentation/[GLPI] - Installation_FusionInventory.pdf"
@@ -114,7 +117,10 @@ target="_blank">iRedMail</a></b> est une solution open source complète de gesti
 (Source : <b><a href="https://support-port25.com/webmail/iredmail.php#:~:text=iRedMail%20est%20une%20solution%20open,leurs%20propres%20serveurs%20de%20messagerie."
 target="_blank">Support-port25</a></b>)
 
-
+- <a href="../../../assets/documentation/[UBUNTU] - Installation_Ubuntu_Serveur.pdf"
+target="_blank">Installation d'un serveur Ubuntu 24.04.1 LTS</a>
+- <a href="../../../assets/documentation/[UBUNTU] - Installation_Interface_Graphique.pdf"
+target="_blank">Installation de l'interface graphique sur un serveur Ubuntu </a>
 - <a href="../../../assets/documentation/[iRedMail] - Installation_iRedMail.pdf"
 target="_blank">Installation de iRedMail sur Ubuntu 24.04.1 LTS</a>
 

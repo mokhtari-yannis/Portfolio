@@ -52,7 +52,5 @@ En savoir plus
 
 > ### Autres documentations
 - <a href="../../assets/documentation/[WINDOWS] - Installation_Windows10.pdf"
-target="_blank">Documentation sur l'installation d'un Windows 10</a>
-- <a href="../../assets/documentation/[WINDOWS] - Installation_Windows11.pdf"
-target="_blank">Documentation sur l'installation d'un Windows 11</a>
+target="_blank">Installation d'un Windows 10</a>
 
