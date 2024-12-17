@@ -24,12 +24,17 @@ Active Directory est la mise en œuvre par Microsoft des services d'annuaire LDA
 target="_blank">Wikipédia</a></b>)
 
 En stage et en alternance, j’ai été amené à utiliser l’Active Directory de Windows Server de l’entreprise pour différentes tâches comme celle-ci :
+<!--
 - <a href="../../assets/.pdf"
 target="_blank">Document sur création d'un nouvel utilisateur</a>
+-->
+
 - <a href="../../assets/documentation/Entreprise/[ACTIVE DIRECTORY] - Création GPO déploiement de logiciels.pdf"
 target="_blank">Implantation d'une GPO (Group Policy Object)</a> 
+<!--
 - <a href="../../assets/.pdf"
 target="_blank">Document sur réinitialisation d'un mot de passe</a>
+-->
 
 > ### GLPI
 <img
@@ -50,10 +55,12 @@ J'ai été amené à la configuration du logiciel lors de mon stage de la premi�
 
 Voici les documentations de mes réalisations sur GLPI :
 
-- <a href="/../../assets/documentation/Entreprise/[GLPI] - Mise à jour.pdf"
+- <a href="../../assets/documentation/Entreprise/[GLPI] - Mise à jour.pdf"
 target="_blank">Mettre à jour le logiciel GLPI</a> 
 - <a href="../../assets/documentation/Entreprise/[GLPI] - Configuration du profil.pdf"
 target="_blank">Configuration du profil sur GLPI</a>
+- <a href="../../assets/documentation/Entreprise/[GLPI] - Cron.pdf"
+target="_blank">Création d'un cron pour les actions automatiques sur GLPI</a>
 
 > ### PuTTY
 <img
@@ -68,8 +75,8 @@ PuTTY est un émulateur de terminal doublé d'un client pour les protocoles SSH,
 (Source : <b><a href="https://fr.wikipedia.org/wiki/PuTTY"
 target="_blank">Wikipédia</a></b>)
 
-- <a href="../../assets/documentation/.pdf"
-target="_blank">Documentation sur configuration d'un switch</a>
+- <a href="../../assets/documentation/Entreprise/[MATERIEL] - Installation et brassage des prise RJ45.pdf"
+target="_blank">Installation et brassage des prises RJ45</a>
 
 > ### Canon
 <img
