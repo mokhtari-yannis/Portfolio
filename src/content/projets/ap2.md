@@ -9,7 +9,7 @@ description: |
 ---
 > #### Documentation Technique de l'AP2
 
-- <a href="../../../assets/documentation/.pdf"
+- <a href="../../../assets/documentation/AP-2 - BTS SIO.pdf"
 target="_blank">Documentation sur la réponse aux problématiques M2L</a>
 
 

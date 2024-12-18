@@ -11,6 +11,9 @@ L'épreuve E5 du BTS SIO, options SISR et SLAM, est un projet réalisé en group
 
 Dans ce cadre, en tant qu'étudiant en SISR, j'ai participé à la mise en place de services tels que GLPI (gestion des ressources informatiques et du support technique) et iRedMail (solution de messagerie sécurisée) dans un serveur sous ProxMox.
 
+- <b><a href="https://github.com/users/flush286/projects/5/views/1"
+target="_blank">Lien du projet</a></b>
+
 <!--
 > ### Schéma Réseaux
 <img
