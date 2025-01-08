@@ -75,7 +75,7 @@ PuTTY est un émulateur de terminal doublé d'un client pour les protocoles SSH,
 (Source : <b><a href="https://fr.wikipedia.org/wiki/PuTTY"
 target="_blank">Wikipédia</a></b>)
 
-- <a href="../../assets/documentation/Entreprise/[MATERIEL] - Installation et brassage des prise RJ45.pdf"
+- <a href="../../assets/documentation/Entreprise/[MATERIEL] - Installation et brassage des prises RJ45.pdf"
 target="_blank">Installation et brassage des prises RJ45</a>
 
 > ### Canon
